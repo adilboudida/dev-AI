@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": "off",
+    "apple-touch-icons": "off",
+    "meta-viewport": "off",
+    "meta-charset-utf-8": "off",
+    "axe/name-role-value": "off",
+    "disown-opener": "off",
+    "axe/aria": "off",
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-text-size-adjust"
+        ]
+      }
+    ],
+    "button-type": "off",
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/parsing": "off"
+  }
+}
